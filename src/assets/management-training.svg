@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357abd;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#50c878;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#90ee90;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="buttonGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ee5a52;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#2c3e50"/>
+  
+  <!-- Desk -->
+  <rect x="0" y="200" width="400" height="100" fill="#8B4513"/>
+  <rect x="0" y="195" width="400" height="10" fill="#A0522D"/>
+  
+  <!-- Computer monitor -->
+  <rect x="120" y="80" width="160" height="100" rx="8" fill="#2c2c2c"/>
+  <rect x="130" y="90" width="140" height="80" rx="4" fill="url(#screenGrad)"/>
+  
+  <!-- Monitor stand -->
+  <rect x="190" y="180" width="20" height="20" fill="#2c2c2c"/>
+  <rect x="170" y="195" width="60" height="8" rx="4" fill="#2c2c2c"/>
+  
+  <!-- Charts on screen -->
+  <rect x="140" y="100" width="30" height="40" fill="url(#chartGrad)"/>
+  <rect x="175" y="110" width="30" height="30" fill="url(#chartGrad)" opacity="0.8"/>
+  <rect x="210" y="105" width="30" height="35" fill="url(#chartGrad)" opacity="0.9"/>
+  <rect x="245" y="95" width="30" height="45" fill="url(#chartGrad)"/>
+  
+  <!-- Screen text lines -->
+  <rect x="140" y="150" width="60" height="3" rx="1" fill="#fff" opacity="0.8"/>
+  <rect x="140" y="157" width="80" height="3" rx="1" fill="#fff" opacity="0.6"/>
+  <rect x="140" y="164" width="50" height="3" rx="1" fill="#fff" opacity="0.7"/>
+  
+  <!-- Keyboard -->
+  <rect x="140" y="210" width="120" height="40" rx="4" fill="#4a4a4a"/>
+  <rect x="145" y="215" width="8" height="8" rx="1" fill="#666" opacity="0.8"/>
+  <rect x="155" y="215" width="8" height="8" rx="1" fill="#666" opacity="0.8"/>
+  <rect x="165" y="215" width="8" height="8" rx="1" fill="#666" opacity="0.8"/>
+  <rect x="175" y="215" width="8" height="8" rx="1" fill="#666" opacity="0.8"/>
+  <rect x="185" y="215" width="8" height="8" rx="1" fill="#666" opacity="0.8"/>
+  
+  <!-- Mouse -->
+  <ellipse cx="280" cy="225" rx="12" ry="18" fill="#666"/>
+  <rect x="278" y="215" width="4" height="8" rx="2" fill="#888"/>
+  
+  <!-- Documents/Reports -->
+  <rect x="50" y="160" width="60" height="80" rx="4" fill="#fff"/>
+  <rect x="55" y="170" width="50" height="3" rx="1" fill="#333"/>
+  <rect x="55" y="180" width="45" height="3" rx="1" fill="#333"/>
+  <rect x="55" y="190" width="40" height="3" rx="1" fill="#333"/>
+  <rect x="55" y="200" width="35" height="3" rx="1" fill="#333"/>
+  
+  <!-- Pie chart on document -->
+  <circle cx="80" cy="220" r="15" fill="none" stroke="#4a90e2" stroke-width="2"/>
+  <path d="M80 205 A15 15 0 0 1 95 220 L80 220 Z" fill="#50c878"/>
+  <path d="M80 220 A15 15 0 0 1 70 235 L80 220 Z" fill="#ff6b6b"/>
+  
+  <!-- Calculator -->
+  <rect x="320" y="140" width="50" height="70" rx="4" fill="#2c2c2c"/>
+  <rect x="325" y="145" width="40" height="15" rx="2" fill="#4a90e2"/>
+  
+  <!-- Calculator buttons -->
+  <circle cx="335" cy="170" r="4" fill="url(#buttonGrad)"/>
+  <circle cx="345" cy="170" r="4" fill="url(#buttonGrad)"/>
+  <circle cx="355" cy="170" r="4" fill="url(#buttonGrad)"/>
+  <circle cx="335" cy="185" r="4" fill="url(#buttonGrad)"/>
+  <circle cx="345" cy="185" r="4" fill="url(#buttonGrad)"/>
+  <circle cx="355" cy="185" r="4" fill="url(#buttonGrad)"/>
+  
+  <!-- Coffee cup -->
+  <ellipse cx="300" cy="180" rx="12" ry="4" fill="#8B4513"/>
+  <path d="M288 180 Q288 165 300 165 Q312 165 312 180 L308 175 Q300 160 292 175 Z" fill="#fff"/>
+  <path d="M312 170 Q320 170 320 175 Q320 180 312 180" fill="none" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Steam from coffee -->
+  <path d="M295 155 Q300 145 295 135" fill="none" stroke="#fff" stroke-width="1" opacity="0.6"/>
+  <path d="M305 155 Q310 145 305 135" fill="none" stroke="#fff" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Growth arrow -->
+  <path d="M350 120 L370 100 L365 105 L370 100 L375 105" fill="none" stroke="#50c878" stroke-width="3"/>
+  
+  <!-- Dollar signs -->
+  <text x="60" y="50" fill="#50c878" font-family="Arial, sans-serif" font-size="24" font-weight="bold">$</text>
+  <text x="340" y="70" fill="#50c878" font-family="Arial, sans-serif" font-size="20" font-weight="bold">$</text>
+  
+  <!-- Sparkles -->
+  <circle cx="100" cy="40" r="2" fill="#FFD700"/>
+  <circle cx="320" cy="50" r="1.5" fill="#FFD700"/>
+  <circle cx="380" cy="80" r="2" fill="#FFD700"/>
+  
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="18" font-weight="bold">MANAGEMENT TRAINING</text>
+</svg>

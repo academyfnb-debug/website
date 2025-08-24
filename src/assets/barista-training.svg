@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="coffeeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D2691E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="steamGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#fff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#fff;stop-opacity:0.2" />
+    </linearGradient>
+    <radialGradient id="cupGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#2c1810"/>
+  
+  <!-- Coffee machine -->
+  <rect x="50" y="120" width="80" height="120" rx="10" fill="#4a4a4a"/>
+  <rect x="60" y="130" width="60" height="20" rx="5" fill="#333"/>
+  <circle cx="90" cy="170" r="15" fill="#666"/>
+  <circle cx="110" cy="190" r="8" fill="#ff4444"/>
+  
+  <!-- Espresso machine spout -->
+  <rect x="125" y="180" width="30" height="8" rx="4" fill="#666"/>
+  
+  <!-- Coffee cup -->
+  <ellipse cx="180" cy="220" rx="25" ry="8" fill="url(#cupGrad)"/>
+  <path d="M155 220 Q155 200 180 200 Q205 200 205 220 L200 215 Q180 195 160 215 Z" fill="url(#cupGrad)"/>
+  <path d="M205 210 Q220 210 220 220 Q220 230 205 230" fill="none" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Coffee liquid -->
+  <ellipse cx="180" cy="215" rx="20" ry="6" fill="url(#coffeeGrad)"/>
+  
+  <!-- Latte art -->
+  <path d="M170 215 Q180 210 190 215 Q185 220 180 218 Q175 220 170 215" fill="#fff" opacity="0.8"/>
+  
+  <!-- Steam -->
+  <path d="M160 190 Q165 180 160 170 Q170 160 165 150" fill="none" stroke="url(#steamGrad)" stroke-width="3" opacity="0.6"/>
+  <path d="M180 185 Q185 175 180 165 Q190 155 185 145" fill="none" stroke="url(#steamGrad)" stroke-width="3" opacity="0.6"/>
+  <path d="M200 190 Q205 180 200 170 Q210 160 205 150" fill="none" stroke="url(#steamGrad)" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Coffee beans -->
+  <ellipse cx="280" cy="180" rx="8" ry="12" fill="#8B4513" transform="rotate(20 280 180)"/>
+  <line x1="280" y1="170" x2="280" y2="190" stroke="#654321" stroke-width="1"/>
+  
+  <ellipse cx="300" cy="200" rx="8" ry="12" fill="#8B4513" transform="rotate(-15 300 200)"/>
+  <line x1="300" y1="190" x2="300" y2="210" stroke="#654321" stroke-width="1"/>
+  
+  <ellipse cx="320" cy="170" rx="8" ry="12" fill="#8B4513" transform="rotate(45 320 170)"/>
+  <line x1="320" y1="160" x2="320" y2="180" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Grinder -->
+  <rect x="250" y="100" width="50" height="60" rx="5" fill="#333"/>
+  <circle cx="275" cy="120" r="15" fill="#666"/>
+  <rect x="270" y="110" width="10" height="5" rx="2" fill="#999"/>
+  
+  <!-- Milk pitcher -->
+  <path d="M320 140 Q340 140 340 160 Q340 180 320 180 L315 180 Q310 180 310 160 Q310 140 320 140" fill="#e0e0e0"/>
+  <path d="M340 150 Q350 150 350 155 Q350 160 340 160" fill="none" stroke="#ccc" stroke-width="2"/>
+  
+  <!-- Sparkles -->
+  <circle cx="100" cy="80" r="2" fill="#FFD700"/>
+  <circle cx="350" cy="60" r="1.5" fill="#FFD700"/>
+  <circle cx="60" cy="100" r="2" fill="#FFD700"/>
+  
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="18" font-weight="bold">BARISTA TRAINING</text>
+</svg>
