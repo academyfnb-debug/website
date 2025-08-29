@@ -1,40 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<svg width="640" height="800" viewBox="0 0 640 800" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#1a1a3e;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#0f0f2a;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#00b8e6;stop-opacity:1" />
     </linearGradient>
   </defs>
   
   <!-- Background -->
-  <rect width="800" height="800" fill="url(#bgGradient)"/>
+  <rect width="640" height="800" fill="url(#bgGradient)"/>
   
   <!-- FB Logo -->
-  <g transform="translate(400,200)">
-    <!-- F Letter -->
-    <rect x="-120" y="-80" width="80" height="20" fill="url(#textGradient)"/>
-    <rect x="-120" y="-80" width="20" height="160" fill="url(#textGradient)"/>
-    <rect x="-120" y="-10" width="60" height="20" fill="url(#textGradient)"/>
+  <g transform="translate(140, 180)">
+    <!-- F -->
+    <rect x="0" y="0" width="40" height="200" fill="#00d4ff"/>
+    <rect x="0" y="0" width="120" height="40" fill="#00d4ff"/>
+    <rect x="0" y="80" width="100" height="40" fill="#00d4ff"/>
     
-    <!-- B Letter -->
-    <rect x="20" y="-80" width="20" height="160" fill="url(#textGradient)"/>
-    <rect x="20" y="-80" width="60" height="20" fill="url(#textGradient)"/>
-    <rect x="20" y="-10" width="50" height="20" fill="url(#textGradient)"/>
-    <rect x="20" y="60" width="60" height="20" fill="url(#textGradient)"/>
-    <rect x="70" y="-60" width="20" height="50" fill="url(#textGradient)"/>
-    <rect x="70" y="10" width="20" height="50" fill="url(#textGradient)"/>
+    <!-- B -->
+    <g transform="translate(160, 0)">
+      <rect x="0" y="0" width="40" height="200" fill="#00d4ff"/>
+      <rect x="0" y="0" width="100" height="40" fill="#00d4ff"/>
+      <rect x="0" y="80" width="100" height="40" fill="#00d4ff"/>
+      <rect x="0" y="160" width="100" height="40" fill="#00d4ff"/>
+      <rect x="100" y="40" width="40" height="40" fill="#00d4ff"/>
+      <rect x="100" y="120" width="40" height="40" fill="#00d4ff"/>
+    </g>
   </g>
   
   <!-- F&B Text -->
-  <text x="400" y="380" font-family="Arial, sans-serif" font-size="120" font-weight="bold" text-anchor="middle" fill="url(#textGradient)">F&B</text>
+  <text x="320" y="480" text-anchor="middle" fill="#00d4ff" font-family="Arial, sans-serif" font-size="120" font-weight="bold">F&amp;B</text>
   
-  <!-- Underline -->
-  <line x1="120" y1="420" x2="680" y2="420" stroke="url(#textGradient)" stroke-width="4"/>
+  <!-- Divider Line -->
+  <line x1="120" y1="520" x2="520" y2="520" stroke="#00d4ff" stroke-width="4"/>
   
   <!-- ACADEMY Text -->
-  <text x="400" y="580" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="url(#textGradient)">ACADEMY</text>
+  <text x="320" y="620" text-anchor="middle" fill="#00d4ff" font-family="Arial, sans-serif" font-size="80" font-weight="bold" letter-spacing="8px">ACADEMY</text>
 </svg>
